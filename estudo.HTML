@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HouseSecurity</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+   <header class="header">
+    <h1>🔒 HouseSecurity</h1>
+
+    <button class="btn header-btn" onclick="mostrarOrcamento()">
+        Solicitar orçamento
+    </button>
+</header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Proteja sua casa com tecnologia inteligente</h2>
+            <p>Monitoramento 24h e alarmes modernos para sua tranquilidade.</p>
+
+            <button class="btn" onclick="mostrarSobre()">Saiba mais</button>
+        </div>
+
+        <section class="services">
+            <div class="card">
+                <i class="fas fa-bell"></i>
+                <h3>Sistemas de Alarme</h3>
+                <p>Alarmes inteligentes com sensores de movimento.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Monitoramento 24h</h3>
+                <p>Segurança em tempo real.</p>
+            </div>
+        </section>
+    </section>
+
+    <section id="orcamento" class="orcamento">
+        <div class="box">
+            <h1>Seu Orçamento</h1>
+            <p class="price">💰 R$ 300,00</p>
+
+            <p class="contact">Entre em contato com o Matheus:</p>
+
+            <a href="https://wa.me/5511992267775" target="_blank" class="btn whatsapp-btn">
+                <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+            </a>
+
+            <br><br>
+            <button class="btn" onclick="voltar()">Voltar</button>
+        </div>
+    </section>
+
+    <section id="sobre" class="orcamento">
+        <div class="box sobre-box">
+            <h1>Sobre a HouseSecurity</h1>
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVi6HeTmzIxZMzXYGDHiZqNIcbI5D4GihObg&s"
+                style="width:100%; border-radius:10px; margin-bottom:20px;">
+            <h3>1. Propósito Central</h3>
+            <p>
+                Existimos para transformar a tecnologia de monitoramento em um escudo invisível e acessível para as
+                famílias brasileiras.
+            </p>
+
+            <h3>2. Missão</h3>
+            <p>
+                Desenvolver e integrar sistemas inteligentes com alta disponibilidade e fácil gerenciamento.
+            </p>
+
+            <h3>3. Visão</h3>
+            <p>
+                Ser referência nacional em segurança residencial inteligente.
+            </p>
+
+            <h3>4. Valores</h3>
+            <p>
+                Confiabilidade, prontidão, privacidade, inovação acessível e transparência.
+            </p>
+
+            <br>
+            <button class="btn" onclick="voltar()">Voltar</button>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
